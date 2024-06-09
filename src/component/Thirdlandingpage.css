@@ -1,0 +1,71 @@
+.container-top{
+    width: 80%;
+    margin-left: 15%;
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-box .left{
+    flex-direction: column;
+    position: relative;
+    width: 40%;
+    margin-right: 80px;
+}
+.flex-box .left img{
+    position: absolute;
+}
+.flex-box .left img:nth-child(1){
+    width: 35px;
+    height: 35px;
+    top: 100px;
+   left: 520px;
+}
+.flex-box .left img:nth-child(2){
+    top: 70px;
+    width: 500px;
+}
+.flex-box .left img:nth-child(3){
+    top: 2px;
+    width: 550px;
+    height: 540px;
+}
+.flex-box .left img:nth-child(4){
+    transform: rotate(14deg);
+    top: 60px;
+    left: 100px;
+    height: 500px;
+}
+.flex-box .lefted{
+    flex-direction: column;
+    margin-top: 130px;
+}
+.flex-box .lefted h3{
+    color: #FF5555;
+    font-weight: bold;
+}
+.flex-box .lefted .bell_icon{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}
+.flex-box .lefted .bell_icon .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FF5555;
+}
+.flex-box .lefted .bell_icon .circle i{
+    font-size: 18px;
+    color: #fff;
+    padding: 6px;
+}
+.flex-box .lefted .bell_icon h4{
+    font-size: 20px;
+}
+.flex-box .lefted p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: gray;
+}

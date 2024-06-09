@@ -1,0 +1,136 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.upper-frame{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+}
+.upper-frame .frame{
+    width: 84vw;
+    height: 50vh;
+}
+.upper-frame .group{
+    position: absolute;
+    top: -140px;
+    left: -50px;
+    z-index: -3;
+}
+.upper-frame .start{
+    position: absolute;
+    right: 60px;
+    top: -80px;
+    height: 35px;
+    width: 35px;
+}
+
+
+
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+    margin-top: 100px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-column .contact-info span{
+    color: #FF5555;
+}
+
+.logo {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}

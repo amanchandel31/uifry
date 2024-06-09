@@ -1,0 +1,126 @@
+.container-landing{
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+}
+.upperblock .upper-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.upperblock .upper-left .img-portion img{
+    width: 400px;
+    position: absolute;
+    z-index: 4;
+    top: -28px;
+    left: 50px;
+}
+.upperblock .upper-left .content{
+    position: absolute;
+    z-index: 5;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.upperblock .upper-left .content h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.upperblock .upper-left .content p{
+    font-size: 14px;
+    margin-top: 0px;
+}
+.upperblock .upper-left .content .button-holder{
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.upperblock .upper-left .content .button-holder button:nth-child(1){
+    background: #000;
+    color: #fff;
+    height: 33px;
+    width: 105px;
+    padding: 5px 12px;
+    font-size: 12px;
+    margin-right: 20px;
+    border: 0;
+    outline: 0;
+}
+.upperblock .upper-left .content .button-holder button:nth-child(2){
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 15px;
+}
+.upperblock .upper-left .content .button-holder button:nth-child(2) span{
+    margin-right: 8px;
+    height: 18px;
+}
+.upperblock .upper-left .content .group24{
+    width: 50%;
+}
+.upperblock .upper-left .content .star{
+    width: 30px;
+    height: 30px;
+    top: 330px;
+    left: 100px;
+    position: absolute;
+}
+.upperblock .upper-right img{
+    width: 300px;
+    position: absolute;
+    /* right: 10px; */
+}
+.upperblock .upper-right img:nth-child(1){
+    top: 25px;
+    height: 40px;
+    width: 40px;
+    right: 70px;
+}
+.upperblock .upper-right img:nth-child(2){
+    right: 20px;
+    height: 500px;
+    top: 10px;
+    transform: rotate(-29deg);
+    z-index: 1;
+}
+.upperblock .upper-right img:nth-child(3){
+    right: 15px;
+    top: 110px;
+    z-index: 2;
+    width: 340px;
+    height: 500px;
+}
+.upperblock .upper-right img:nth-child(4){
+    right: 30px;
+    top: 80px;
+    width: 340px;
+    height: 500px;
+    z-index: 3;
+}
+.upperblock .upper-right img:nth-child(5){
+    right: 140px;
+    top: 40px;
+    z-index: 3;
+    width: 320px;
+    height: 500px;
+}
+.upperblock .upper-right img:nth-child(6){
+    top: 250px;
+    right: 88px;
+    z-index: -1;
+}
+.upperblock .upper-right img:nth-child(7){
+    width: 30px;
+    height: 30px;
+    right: 300px;
+    top: 480px;
+    z-index: 10;
+}
+
+
+

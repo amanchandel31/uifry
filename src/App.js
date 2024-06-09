@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './component/Navbar.js'
+import Landingpage from './component/Landingpage.js'
+import Secondlanding from './component/Secondlanding.js'
+import Thirdlandingpage from './component/Thirdlandingpage.jsx'
+import Fourthlandingpage from "./component/Fourthlandingpage.jsx"
+import Fivelandingpage from './component/Fivelandingpage.jsx'
+import Sixlandingpage from './component/Sixlandingpage.jsx'
+import Footer from './component/Footer.js'
+import "./App.css"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Navbar />
+    <Landingpage/>
+    <Secondlanding/>
+    <Thirdlandingpage/>
+    <Fourthlandingpage/>
+    <Fivelandingpage/>
+    <Sixlandingpage/>
+    <Footer/>
+    </>
+  )
 }
 
-export default App;
+export default App
